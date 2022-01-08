@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    background-image: url("background.jpg");
+    position: relative;
+    margin: auto auto;
+    overflow: hidden;
+}
+#scoring{
+    position: absolute;
+    font-size: 40px;
+    z-index: 10;
+}
+#menu{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+#submarine{
+    display: none;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    z-index: 10;
+}
+#stonelist li{
+    width: 80px;
+    height: 600px;
+    list-style-type: none;
+    left: 800px;
+    position: absolute;
+    top: 0px;
+}
+.stoneup{
+    position: relative;
+    
+}
+.stoneup img{
+    position: absolute;
+    bottom: 0;
+}
+.stonedown{
+    position: absolute;
+    bottom: 0;
+}
+.stonedown img{
+    position: absolute;
+    top: 0;
+}
+#gameover{
+    position: absolute;
+    left: 200px;
+    top: 95px;
+    display: none;
+    z-index: 20;
+}
