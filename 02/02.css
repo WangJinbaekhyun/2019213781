@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    display:grid;
+    grid-template-columns: 1000px 400px;
+    grid-template-rows: 101px 800px;
+}
+#header{
+    grid-area: 1/1/2/2;
+    background-image: url("title.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    border:3px solid rgb(51, 161, 252);
+}
+table{
+    grid-area: 2/1/3/2;
+    text-align: center;
+    border:3px solid rgb(51, 161, 252);
+    border-collapse: collapse;
+}
+tr th {
+    width:125px;
+    height:64px;
+    border:2px solid rgb(51, 161, 252);
+}
+tr td{
+    width:125px;
+    height:64px;
+    border:2px solid rgb(51, 161, 252);
+}
+#show{
+    display: none;
+    grid-area: 1/2/3/3;
+    background-repeat: no-repeat;
+    background-position: center;
+}
